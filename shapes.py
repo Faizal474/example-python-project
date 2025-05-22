@@ -1,3 +1,4 @@
+
 class Shapes:
     width=5
     hight=5
@@ -35,4 +36,5 @@ triangle=triangle()
 triangle.print()
 
 symmetricTriangle=symmetricTriangle()
+
 symmetricTriangle.print()

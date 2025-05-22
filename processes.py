@@ -1,3 +1,4 @@
+
 from multiprocess import Process
 import time
 def longSquare(num,results):
@@ -22,4 +23,5 @@ if __name__=='__main__':
     for p in processes:
         p.join()    
         
+
     print(results)

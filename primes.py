@@ -1,3 +1,4 @@
+
 def isprime(n, foundprime=None):
     foundprime=range(2,int(n**0.5)) if foundprime is None else foundprime
     for factor in foundprime:
@@ -10,4 +11,5 @@ def listPrime(max):
     for n in range(2,max):
         if isprime(n,foundprime):
             foundprime.append(n)
+
     return foundprime

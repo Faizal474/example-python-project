@@ -1,4 +1,5 @@
 
+
 #def causeError():
 #    1/0
 
@@ -45,4 +46,5 @@ def causeError(n):
 causeError('a')
 causeError(1)
 causeError(2.0)
+
 causeError(True)

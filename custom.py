@@ -1,3 +1,4 @@
+
 class CustomException(Exception):
     pass
 

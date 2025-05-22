@@ -1,3 +1,4 @@
+
 class Dog:
     legs=4
     def __init__(self,name,age):
@@ -30,4 +31,5 @@ smalldog.WhatIsYourAge()
 
 TinyDog=TinyDog('TINY',1)
 TinyDog.speak()
+
 TinyDog.WhatIsYourAge()

@@ -1,3 +1,4 @@
+
 import json
 #f=open('a.text','r')
 
@@ -31,3 +32,4 @@ with open('a.json','r') as f:
 unpacked=json.loads(jsondata)
 print(unpacked)
 print(type(unpacked))
+

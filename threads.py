@@ -1,3 +1,4 @@
+
 import threading
 import time
 def longSquare(num,results):
@@ -26,4 +27,5 @@ thread= [threading.Thread(target=longSquare,args=(n,results))for n in range(5) ]
 
 
 [t.join() for t in thread]
+
 print(results)

@@ -1,3 +1,4 @@
+
 import json
 from json import JSONEncoder
 
@@ -11,5 +12,6 @@ class AnimalEncoder(JSONEncoder):
             return o.name
         else:
             super().default(o)
+
 
 print(json.dumps(pye,cls=AnimalEncoder))
